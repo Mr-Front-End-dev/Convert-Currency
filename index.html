@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CURRENCY CONVERTER</title>
+  <link rel="icon" href="icon/expense.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/container.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/tableContainer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet">
+</head>
+<body class="body">
+  <div class="container">
+    <form class="form js-form">
+      <h1 class="form__header">Convert currency</h1>
+      <p>
+        <p class="form__paragraphWarning">Converting from PLN <span class="form__span--asterisk">*</span></p>
+        <label>
+          <span class="form__labelText form__labelText--lightslategrey">Amount in <span
+              class="form__span--asterisk">*</span> :</span>
+          <input type="number" placeholder="Enter the amonumt in PLN" class="form__field js-amount" min="0" max="100000"
+            step="0.01" required>
+        </label>
+      </p>
+      <p>
+        <label>
+          <span class="form__labelText">Currency :</span>
+          <select class="form__field js-currency">
+            <option value="THB">1 Thailandian Bat (THB)</option>
+            <option value="USD">1 American Dollar (USD)</option>
+            <option value="AUD">1 Australian Dollar (AUD)</option>
+            <option value="HKD">1 Hongkong Dollar (HKD)</option>
+            <option value="CAD">1 Canadian Dollar (CAD)</option>
+            <option value="NZD">1 New Zealand Dollar (NZD)</option>
+            <option value="SGD">1 Singapore Dollar (SGD)</option>
+            <option value="EUR">1 European Euro (EUR)</option>
+            <option value="(* 100) HUF">100 Hungarian Forint (HUF)</option>
+            <option value="CHF">1 Swiss Franc (CHF)</option>
+            <option value="GBP">1 British Pound (GBP)</option>
+            <option value="UAH">1 Ukrainian Hrywnia (UAH)</option>
+            <option value="(* 100) JPY">100 Japanese Yen (JPY)</option>
+            <option value="CZK">1 Czech Krona (CZK)</option>
+            <option value="DKK">1 Danish Krona (DKK)</option>
+            <option value="(* 100) ISK">100 Islandic Krona (ISK)</option>
+            <option value="NOK">1 Norway Krone (NOK)</option>
+            <option value="SEK">1 Swedish Krona (SEK)</option>
+            <option value="HRK">1 Croatian Kuna (HRK)</option>
+            <option value="RON">1 Romanian Leu (RON)</option>
+            <option value="BGN">1 Bulgarian Lev (BGN)</option>
+            <option value="TRY">1 Turkish Lira (TRY)</option>
+            <option value="ILS">1 New Israel Shekel (ILS)</option>
+            <option value="(* 100) CLP">100 Chilean Peso (CLP)</option>
+            <option value="PHP">1 Philippine Peso (PHP)</option>
+            <option value="MXN">1 Mexican Peso (MXN)</option>
+            <option value="ZAR">1 South Africa Rand (ZAR)</option>
+            <option value="BRL">1 Brazilian Real (BRL)</option>
+            <option value="MYR">1 Malaysian Ringgit (MYR)</option>
+            <option value="RUB">1 Russian Rouble (RUB)</option>
+            <option value="(* 10000) IDR">10000 Indonesian Rupiah (IDR)</option>
+            <option value="(* 100) INR">100 Indian Rupiah (INR)</option>
+            <option value="(* 100) KRW">100 South Korean Won (KRW)</option>
+            <option value="CNY">1 Chinese Yuan Renminbi (CNY)</option>
+            <option value="XDR">1 SDR (MFW)</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <button class="form__buttonText">Convert!</button>
+      </p>
+      <p class="form__info">The rates are taken from the table nr 002/A/NBP/2021 from 2020-01-05</p>
+      <!-- UPDATE with time -->
+      <p class="form__result js-result"></p>
+      <div class="underline--lightblue"></div>
+    </form>
+  </div>
+  <script defer src="js/script.js"></script>
+</body>
+
+</html>

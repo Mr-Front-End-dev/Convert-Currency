@@ -1,0 +1,33 @@
+.tableTH {
+  font-size: 22px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(195, 53%, 79%);
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.tableTH:hover {
+  background-color: hsl(195, 53%, 59%);
+}
+
+.tableTD {
+  vertical-align: middle;
+  font-size: 18px;
+  color: hsl(0, 0%, 50%);
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.tableTD:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.tableTH, .tableTD {
+  text-align: center;
+  border: 1px solid hsl(0, 0%, 50%);
+}
+
+.tableTR:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 50%);
+}
