@@ -41,7 +41,7 @@
   }
 }
 
-.form__labelText--lightslategrey{
+.form__labelText--lightslategrey {
   background-color: hsl(210, 14%, 53%);
 }
 
@@ -53,7 +53,7 @@
   border: 1px solid hsl(0, 0%, 83%);
 }
 
-@media (max-width: 414px){
+@media (max-width: 414px) {
   .form__field {
     max-width: 245px;
   }
@@ -90,7 +90,7 @@
   color: hsl(210, 14%, 48%);
 }
 
-.underline--lightblue {
+.underline--lightslategrey {
   padding: 20px;
   width: 100%;
   background-color: hsl(210, 14%, 53%); 
