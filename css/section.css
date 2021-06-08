@@ -1,4 +1,4 @@
-.section__button {
+.button {
   color: hsl(210, 13%, 50%);
   background-color: hsl(0, 0%, 100%);
   border-style: none;
@@ -8,32 +8,30 @@
   cursor: context-menu;
 }
 
-/* ________________________ */
-.section__button--lightseagreen.section__button--lightseagreen {
+.button--lightseagreen.button--lightseagreen {
   background-color: hsl(177, 70%, 41%);
   color: hsl(0, 0%, 100%);
 }
 
-.section__button--lightseagreen.section__button--lightseagreen:hover {
+.button--lightseagreen.button--lightseagreen:hover {
   background-color: hsl(177, 70%, 46%);
 }
-/* ________________________ */
 
-.section__button:hover {
+.button:hover {
   background-color: hsl(0, 0%, 93%);
 }
 
-.section__button--lightseagreen {
+.button--lightseagreen {
   background-color: hsl(177, 70%, 41%);
   color:hsl(0, 0%, 100%);
   left: 5px;
 }
 
-.section__button--lightseagreen.section__button--lightseagreen:hover {
+.button--lightseagreen.button--lightseagreen:hover {
   background-color: hsl(177, 70%, 46%);
 }
 
-.section__button--link {
+.button--link {
   color: hsl(0, 0%, 0%);
   text-decoration: none;
   cursor: context-menu;
