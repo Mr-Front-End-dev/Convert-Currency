@@ -1,6 +1,6 @@
 ﻿## A simple currency converter, which converting from PLN currency to another currencies (values will be updated with time)
 
-[Link](https://mrpenguin-dev.github.io/Simple-Currency-Converter/)
+[Link](https://mr-front-end-dev.github.io/Currency-Converter--EN-LSG-/)
 
 #### Added:
 1. image to background of page
